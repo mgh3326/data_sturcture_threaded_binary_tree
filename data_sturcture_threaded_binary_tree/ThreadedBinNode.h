@@ -1,4 +1,5 @@
 #pragma once
+#pragma once
 class ThreadedBinNode {
 	int data;
 	ThreadedBinNode *left;

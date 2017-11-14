@@ -1,3 +1,4 @@
+#pragma once
 #include "ThreadedBinNode.h"
 #include<cstdlib>
 #include<cstdio>
