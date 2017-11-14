@@ -1,5 +1,7 @@
 #pragma once
-#pragma once
+
+#include<cstdlib>
+#include<cstdio>
 class ThreadedBinNode {
 	int data;
 	ThreadedBinNode *left;

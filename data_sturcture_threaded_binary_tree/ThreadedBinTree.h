@@ -1,11 +1,10 @@
-#pragma once
+
 #include "ThreadedBinNode.h"
-#include<cstdlib>
-#include<cstdio>
-class ThreadBinTree {
+
+class ThreadedBinTree {
 	ThreadedBinNode* root;
 public:
-	ThreadBinTree() : root(NULL) {}
+	ThreadedBinTree() : root(NULL) {}
 	void setRoot(ThreadedBinNode* node) { root = node; }
 	bool isEmpty() { return root == NULL; }
 
